@@ -23,6 +23,11 @@ class CobrosController extends Controller
         return DB::select("select * from cobros where month(created_at) = $request->mes");
     }
 
+    public function getbyyear(Request $request)
+    {
+        return DB::select("select * from cobros where year(created_at) = $request->ano");
+    }
+
     /**
      * Show the form for creating a new resource.
      *

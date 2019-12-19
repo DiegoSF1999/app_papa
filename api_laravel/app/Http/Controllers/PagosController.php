@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\pagos;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PagosController extends Controller
 {
@@ -14,7 +15,17 @@ class PagosController extends Controller
      */
     public function index()
     {
-        return pagos::all();
+ 
+    }
+
+    public function getbymonth(Request $request)
+    {
+        return DB::select("select * from pagos where month(created_at) = $request->mes");
+    }
+
+    public function getbyyear(Request $request)
+    {
+        return DB::select("select * from pagos where year(created_at) = $request->ano");
     }
 
     /**
