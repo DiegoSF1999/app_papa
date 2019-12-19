@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">app_jose</string>
+    <string-array name="tipos">
+            <item>Cobro</item>
+            <item>Pago</item>
+        </string-array>
+
 </resources>
