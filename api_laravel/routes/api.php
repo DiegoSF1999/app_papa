@@ -20,8 +20,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::apiResource('cobros', 'CobrosController');
 Route::POST('cobros/mes', 'CobrosController@getbymonth');
-Rute::POST('cobros/ano', 'CobrosController@getbyyear');
+Route::POST('cobros/ano', 'CobrosController@getbyyear');
 
 Route::apiResource('pagos', 'PagosController');
 Route::POST('cobros/mes', 'PagosController@getbymonth');
-Rute::POST('pagos/ano', 'PagosController@getbyyear');
+Route::POST('pagos/ano', 'PagosController@getbyyear');

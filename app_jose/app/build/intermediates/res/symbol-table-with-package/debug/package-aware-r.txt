@@ -682,6 +682,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id SpinnerTipos
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -742,6 +743,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id button
 id buttonPanel
 id center_vertical
 id chains
@@ -759,6 +761,9 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id editTextCobroPago
+id editTextConcepto
+id editTextDinero
 id edit_query
 id end
 id expand_activities_button
@@ -822,7 +827,6 @@ id showCustom
 id showHome
 id showTitle
 id spacer
-id spinner2
 id split_action_bar
 id spread
 id spread_inside
@@ -847,6 +851,9 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView2
+id textView3
+id textView4
+id textViewCobroPago
 id time
 id title
 id titleDividerNoCustom

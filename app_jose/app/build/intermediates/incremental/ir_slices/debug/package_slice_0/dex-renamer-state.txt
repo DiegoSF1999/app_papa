@@ -1,4 +1,0 @@
-#Thu Dec 19 12:49:54 CET 2019
-base.0=/Applications/MAMP/htdocs/Diego/app_papa/app_jose/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex
